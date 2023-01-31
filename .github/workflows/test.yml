@@ -2,7 +2,7 @@ name: hello-world
 on: 
   push:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   my-job:
     runs-on: ubuntu-latest
